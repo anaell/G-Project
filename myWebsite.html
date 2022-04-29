@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>replit</title>
+		<link href="/classvisa stuff/myWebsite.css" rel="stylesheet" type="text/css" />
+	</head>
+
+<body>
+       
+	<div class="container">
+		<!-- Heading -->
+		<div>
+			<div class="header">
+				<span class="logo">ESD</span>
+				<h1>ExquiSiteDishes</h1>
+				<h2>HOME TO ALL DISHES</h2>
+			</div>
+	
+			<ul class="to">
+				<li class="we"><a href="#">HOME</a></li>
+				<li class="we"><a href="#">LEARN</a></li>
+				<li class="we"><a href="#">ORDER</a></li>
+				<li class="we"><a href="#">ABOUT</a></li>
+				<!-- <form class="form" action="#">
+					<input type="email" name="email" placeholder="Email">
+				</form> -->
+			</ul>
+		</div>
+			<br><br>
+		<!-- Body -->
+		<div>
+			<!-- Home Section -->
+			<div class="center">
+				<h3>View Some Of Our Dishes</h3>
+				<img src="/photo/food1.jpg" alt="" width="200em" height="200em">
+				<img src="/photo/food2.jpg" alt="" width="200em" height="200em">
+				<img src="/photo/food3.jpg" alt="" width="200em" height="200em">
+				<img src="/photo/food4.jpg" alt="" width="200em" height="200em">
+				<img src="/photo/food5.jpg" alt="" width="200em" height="200em">
+				<!-- <img src="/photo/food4.jpg" alt="" width="200em" height="200em"> -->
+				<br>
+			</div>
+			<button type="button" onclick="document.getElementsByClassName('saq').src">Previous Food Images</button>
+			<button class="move-right-btn" type="button">Next Food Images</button>
+		</div>
+	
+		<!-- Learn Section -->
+		<div>
+			<h3 class="center">Learn To Cook</h3>
+			<p class="center" style="text-transform: capitalize;">	Practice makes perfect but befors practice you need to know what you are practicing.
+				Here you can learn how to make any dish of your choice.
+			</p>
+			<label for="meal">Learn To Make A Dish</label>
+			<input class="tew" style="width: 70%;" type="search" name="meal" placeholder="Search For Dish To Make">
+			<br>
+			<button class="button" type="button" >Go To Learn IT</button>	
+		</div>
+
+		<!-- Order Section -->
+		<div>
+			<h3 class="center">Place An Order</h3>
+			
+			<form action="#">
+				<input class="tew" style="width: 40%;" type="search" name="food" placeholder="Search For Food To Order">
+			</form>
+			<h4>Most Ordered</h4>
+			<div class="center">
+				<div class="margin-bottom inline">
+					<img src="/photo/food1.jpg" alt="Image of Luxury Food" width="150em" height="150em">
+					<button href="#">Place An Order</button>
+				</div>
+				
+				<div class="margin-bottom inline">
+					<img src="/photo/food2.jpg" alt="Image of Luxury Food" width="150em" height="150em">
+					<button href="#">Place An Order</button>
+				</div>
+				
+				<div class="margin-bottom inline">
+					<img src="/photo/food3.jpg" alt="Image of Luxury Food" width="150em" height="150em">
+					<button href="#">Place An Order</button>
+				</div>
+			
+				<div class="margin-bottom inline">
+					<img src="/photo/food4.jpg" alt="Image of Luxury Food" width="150em" height="150em">
+					<button href="#">Place An Order</button>
+				</div>
+			</div>
+			<button type="button">ORDER</button>		
+			<br> 
+		</div>
+		
+		<!-- About Section -->
+		<div>
+			<h3>About ExquiSiteDishes</h3>
+			<p></p>
+		</div>
+		
+		<!-- Footer -->
+		<div>
+			<div>
+				<form action="#">
+					<input class="in-put" type="email" name="login" placeholder="Email">
+					<br>
+					
+					<input class="in-put" type="password" placeholder="Password">
+				</form>
+				<h3>Login</h3>
+			</div>
+		</div>
+		<button onclick="document.getElementById('tqo').innerHTML = 'THANKS FOR VISITING ExquiSiteDishes'">CLICK</button>
+		<p id="tqo" style="font-size:larger;"></p>
+	</div>
+</body>
+</html>
